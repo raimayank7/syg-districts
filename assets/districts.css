@@ -1,0 +1,14 @@
+/* Districts of India: own styles on top of the shared frame */
+.ds-sort{margin:10px 0 0}
+.ds-states a b{color:var(--accent);margin-left:4px;font-family:var(--mono)}
+.ds-big{font-size:1.15rem;color:var(--ink)!important}
+.ds-big b{font-family:var(--mono);color:var(--accent);font-size:1.3em}
+.ds-facts{margin-top:8px}
+.ds-chips a[aria-current]{pointer-events:none}
+.ds-recent{font-size:.92rem;margin:12px 0}
+.ds-recent a{display:inline-block;margin:4px 8px 4px 0;padding:8px 12px;border:1px solid var(--line);border-radius:99px;text-decoration:none;background:var(--surface)}
+.ds-list{list-style:none;padding:0;margin:12px 0;display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr))}
+.ds-list a{display:block;padding:10px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink);min-height:52px}
+.ds-list a small{display:block;color:var(--soft)}
+.grid a{flex-wrap:wrap}.grid a small{white-space:normal}
+.cols li a{display:inline-block;padding:4px 0}
